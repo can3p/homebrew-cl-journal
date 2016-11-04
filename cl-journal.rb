@@ -1,4 +1,4 @@
-class Cljournal < Formula
+class ClJournal < Formula
   desc "Common lisp livejournal blog client"
   homepage "https://github.com/can3p/cl-journal"
   url "https://github.com/can3p/cl-journal/archive/v0.1.1.tar.gz"
