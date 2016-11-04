@@ -112,7 +112,7 @@ class ClJournal < Formula
 
     ENV["CL_SOURCE_REGISTRY"] = "#{buildpath}/lib//:#{buildpath}//"
     ENV["ASDF_OUTPUT_TRANSLATIONS"] = "/:/"
-    system "buildapp", "--load-system", "cl-journal", "--output", "cl-journal", "--entry", "cl-journal.main"
+    system "buildapp", "--load-system", "cl-journal", "--output", "cl-journal", "--entry", "cl-journal.main::main"
 
     bin.install "cl-journal"
   end
