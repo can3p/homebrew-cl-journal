@@ -1,8 +1,8 @@
 class ClJournal < Formula
   desc "Common lisp livejournal blog client"
   homepage "https://github.com/can3p/cl-journal"
-  url "https://github.com/can3p/cl-journal/archive/v0.2.2.tar.gz"
-  sha256 "af0ff7d83e9622ef5014c6f4546d6b1bba2f811e6187d1aa20baab84f8ff1dc4"
+  url "https://github.com/can3p/cl-journal/archive/v0.2.3.tar.gz"
+  sha256 "c9fea15f36d285da6a3962b9d3a9e294afa5078db3bbeadb9c1885dc92aa279c"
   head "https://github.com/can3p/cl-journal"
 
   depends_on "sbcl"
