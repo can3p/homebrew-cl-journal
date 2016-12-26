@@ -1,12 +1,18 @@
 class ClJournal < Formula
   desc "Common lisp livejournal blog client"
   homepage "https://github.com/can3p/cl-journal"
-  url "https://github.com/can3p/cl-journal/archive/v0.2.3.tar.gz"
-  sha256 "c9fea15f36d285da6a3962b9d3a9e294afa5078db3bbeadb9c1885dc92aa279c"
+  url "https://github.com/can3p/cl-journal/archive/v0.3.0.tar.gz"
+  sha256 "902069ffd2c61aaba1a72242e40856fb8af5c9bd9721c0089ec2f7a229f8ad2f"
   head "https://github.com/can3p/cl-journal"
 
   depends_on "sbcl"
   depends_on "buildapp" => :build
+
+  resource "split-sequence" do
+    url "http://beta.quicklisp.org/archive/split-sequence/2015-08-04/split-sequence-1.2.tgz"
+    sha256 "145c5c36e0b4edf77e2cf6df7f8c6b3aa9018211e269cafb97e9631bb7f3a58b"
+  end
+
 
   resource "metatilities-base" do
     url "http://beta.quicklisp.org/archive/metatilities-base/2012-09-09/metatilities-base-20120909-git.tgz"
