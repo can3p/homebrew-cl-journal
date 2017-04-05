@@ -1,8 +1,8 @@
 class ClJournal < Formula
   desc "Common lisp livejournal blog client"
   homepage "https://github.com/can3p/cl-journal"
-  url "https://github.com/can3p/cl-journal/archive/v0.3.1.tar.gz"
-  sha256 "783eff5ed1e1789286bc5c73a6bc227c4bce5369ff71696e6e345fd327bd99b6"
+  url "https://github.com/can3p/cl-journal/archive/v0.3.2.tar.gz"
+  sha256 "5c3c16c3863e718ea5b43bd68c4580c5ff6552633cf4467811e4c10e94b0e8fa"
   head "https://github.com/can3p/cl-journal"
 
   depends_on "sbcl"
@@ -21,8 +21,8 @@ class ClJournal < Formula
 
 
   resource "metabang-bind" do
-    url "http://beta.quicklisp.org/archive/metabang-bind/2014-11-06/metabang-bind-20141106-git.tgz"
-    sha256 "84b0d7384a8f385140a11820e4f57cfd630c8e7ff48b44d357e9af9acd82be86"
+    url "http://beta.quicklisp.org/archive/metabang-bind/2017-01-24/metabang-bind-20170124-git.tgz"
+    sha256 "8c77ec6f258ebedad018f3f474c29a42246361143091b3cca35e009658f6d1f7"
   end
 
 
@@ -51,8 +51,8 @@ class ClJournal < Formula
 
 
   resource "asdf-system-connections" do
-    url "http://beta.quicklisp.org/archive/asdf-system-connections/2014-02-11/asdf-system-connections-20140211-git.tgz"
-    sha256 "df8bf8fcb0f33535137dfb232183387bef63ae713820c7305d921e5fad9a9669"
+    url "http://beta.quicklisp.org/archive/asdf-system-connections/2017-01-24/asdf-system-connections-20170124-git.tgz"
+    sha256 "f8723e0b0b8bd5f964f7726536e52aacb2e9833d475fcde8333cda81d7190241"
   end
 
 
@@ -63,8 +63,8 @@ class ClJournal < Formula
 
 
   resource "anaphora" do
-    url "http://beta.quicklisp.org/archive/anaphora/2011-06-19/anaphora-0.9.4.tgz"
-    sha256 "5e7334e0b498cf4c01cf767f6f7e2be6a01895cc6f80d7fcae6d311fee43983f"
+    url "http://beta.quicklisp.org/archive/anaphora/2017-02-27/anaphora-20170227-git.tgz"
+    sha256 "a9790080e92f451e4bd43ccd8accf69d1e0f2089e0de207bf4271b4fd932dbc6"
   end
 
 
@@ -81,14 +81,14 @@ class ClJournal < Formula
 
 
   resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2016-04-21/alexandria-20160421-git.tgz"
-    sha256 "59e95780b35d0ebea7530564c4d18cafa0a1118aaa109ae6c2dcffbbed28f686"
+    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
+    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
   end
 
 
   resource "uiop" do
-    url "http://beta.quicklisp.org/archive/uiop/2015-10-31/uiop-3.1.6.tgz"
-    sha256 "8b01848d84a5c5dd6107aa63b4bcabb9b0d0889dd4eb351cfe88255f4ded9115"
+    url "http://beta.quicklisp.org/archive/uiop/2017-01-24/uiop-3.2.0.tgz"
+    sha256 "2fb6cf86c0f2ce79981932ab7fb78388877bf9b7e3e67d4259b591c55a0d36e7"
   end
 
 
