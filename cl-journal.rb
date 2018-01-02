@@ -1,8 +1,8 @@
 class ClJournal < Formula
   desc "Common lisp livejournal blog client"
   homepage "https://github.com/can3p/cl-journal"
-  url "https://github.com/can3p/cl-journal/archive/v0.4.0.tar.gz"
-  sha256 "1e7986385959774231009f0b21a8230b8231918af7aa4366a1a3db3474cfa1d0"
+  url "https://github.com/can3p/cl-journal/archive/v0.4.1.tar.gz"
+  sha256 "fa9215afe06de2a3c6d675c626e526768702eaa08eecf6231b10f610ba5e4219"
   head "https://github.com/can3p/cl-journal"
 
   depends_on "sbcl"
@@ -15,20 +15,20 @@ class ClJournal < Formula
 
 
   resource "metatilities-base" do
-    url "http://beta.quicklisp.org/archive/metatilities-base/2012-09-09/metatilities-base-20120909-git.tgz"
-    sha256 "2a0f3f2b3d9724035e03c4bcb9fa587a2a638bd0fd64f20926d83efa09e8d4f8"
+    url "http://beta.quicklisp.org/archive/metatilities-base/2017-04-03/metatilities-base-20170403-git.tgz"
+    sha256 "799d8a3743660bb98bf517a22aae0c73269061fdf9e69214c3b679f3ee9f8191"
   end
 
 
   resource "metabang-bind" do
-    url "http://beta.quicklisp.org/archive/metabang-bind/2017-01-24/metabang-bind-20170124-git.tgz"
-    sha256 "8c77ec6f258ebedad018f3f474c29a42246361143091b3cca35e009658f6d1f7"
+    url "http://beta.quicklisp.org/archive/metabang-bind/2017-11-30/metabang-bind-20171130-git.tgz"
+    sha256 "2ac820a212756f49b7987f2603c22c8eb10ded912903843f9792e28004794c56"
   end
 
 
   resource "metatilities-base" do
-    url "http://beta.quicklisp.org/archive/metatilities-base/2012-09-09/metatilities-base-20120909-git.tgz"
-    sha256 "2a0f3f2b3d9724035e03c4bcb9fa587a2a638bd0fd64f20926d83efa09e8d4f8"
+    url "http://beta.quicklisp.org/archive/metatilities-base/2017-04-03/metatilities-base-20170403-git.tgz"
+    sha256 "799d8a3743660bb98bf517a22aae0c73269061fdf9e69214c3b679f3ee9f8191"
   end
 
 
@@ -39,14 +39,14 @@ class ClJournal < Formula
 
 
   resource "cl-ppcre" do
-    url "http://beta.quicklisp.org/archive/cl-ppcre/2015-09-23/cl-ppcre-2.0.11.tgz"
-    sha256 "626d4e1f78659d0b6e4d675c94e39afb1f602427724c961b1e4f029b348f4cb6"
+    url "http://beta.quicklisp.org/archive/cl-ppcre/2017-12-27/cl-ppcre-20171227-git.tgz"
+    sha256 "84d77df5e6913535deea5d0b7d13e0108da5eaa90034039da2976ad96762b16d"
   end
 
 
   resource "metatilities-base" do
-    url "http://beta.quicklisp.org/archive/metatilities-base/2012-09-09/metatilities-base-20120909-git.tgz"
-    sha256 "2a0f3f2b3d9724035e03c4bcb9fa587a2a638bd0fd64f20926d83efa09e8d4f8"
+    url "http://beta.quicklisp.org/archive/metatilities-base/2017-04-03/metatilities-base-20170403-git.tgz"
+    sha256 "799d8a3743660bb98bf517a22aae0c73269061fdf9e69214c3b679f3ee9f8191"
   end
 
 
@@ -57,8 +57,8 @@ class ClJournal < Formula
 
 
   resource "cl-containers" do
-    url "http://beta.quicklisp.org/archive/cl-containers/2015-09-23/cl-containers-20150923-git.tgz"
-    sha256 "9f02adedb39b4cab31047af7153ee46626009a8305d6fe10b79ccf3d2dd77e66"
+    url "http://beta.quicklisp.org/archive/cl-containers/2017-04-03/cl-containers-20170403-git.tgz"
+    sha256 "afafc5d18d07c783e37b1ad6ef29e8bc552292b4ddd5fd7544868cddcb5f9c72"
   end
 
 
@@ -81,20 +81,20 @@ class ClJournal < Formula
 
 
   resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
   end
 
 
   resource "uiop" do
-    url "http://beta.quicklisp.org/archive/uiop/2017-01-24/uiop-3.2.0.tgz"
-    sha256 "2fb6cf86c0f2ce79981932ab7fb78388877bf9b7e3e67d4259b591c55a0d36e7"
+    url "http://beta.quicklisp.org/archive/uiop/2017-12-27/uiop-3.3.1.tgz"
+    sha256 "0cbe1012899f1b1584f954bcb265d306b974ebd9141f97b476879adc00513b71"
   end
 
 
   resource "md5" do
-    url "http://beta.quicklisp.org/archive/md5/2015-08-04/md5-20150804-git.tgz"
-    sha256 "856d522b4f60af0ead0435114c11100c0f5348e5e1db5fffe93a851be54dc7e9"
+    url "http://beta.quicklisp.org/archive/md5/2017-06-30/md5-20170630-git.tgz"
+    sha256 "ddc3c29843fecf1af5f39346ff91cebadcc4ffb61d3e64698acbcda90722915e"
   end
 
 
@@ -153,14 +153,14 @@ class ClJournal < Formula
 
 
   resource "flexi-streams" do
-    url "http://beta.quicklisp.org/archive/flexi-streams/2015-07-09/flexi-streams-1.0.15.tgz"
-    sha256 "f70c76e1724978100e26d9e0e0a0844939cde084b0d7f5623f1adbc8cb187d7e"
+    url "http://beta.quicklisp.org/archive/flexi-streams/2017-12-27/flexi-streams-20171227-git.tgz"
+    sha256 "ccbbce21fe146ad7e59c9495bf5128e57329779e9abbf0fb7bfe9eef35e283c3"
   end
 
 
   resource "cl-ppcre" do
-    url "http://beta.quicklisp.org/archive/cl-ppcre/2015-09-23/cl-ppcre-2.0.11.tgz"
-    sha256 "626d4e1f78659d0b6e4d675c94e39afb1f602427724c961b1e4f029b348f4cb6"
+    url "http://beta.quicklisp.org/archive/cl-ppcre/2017-12-27/cl-ppcre-20171227-git.tgz"
+    sha256 "84d77df5e6913535deea5d0b7d13e0108da5eaa90034039da2976ad96762b16d"
   end
 
 
@@ -171,8 +171,8 @@ class ClJournal < Formula
 
 
   resource "uiop" do
-    url "http://beta.quicklisp.org/archive/uiop/2017-01-24/uiop-3.2.0.tgz"
-    sha256 "2fb6cf86c0f2ce79981932ab7fb78388877bf9b7e3e67d4259b591c55a0d36e7"
+    url "http://beta.quicklisp.org/archive/uiop/2017-12-27/uiop-3.3.1.tgz"
+    sha256 "0cbe1012899f1b1584f954bcb265d306b974ebd9141f97b476879adc00513b71"
   end
 
 
@@ -188,6 +188,12 @@ class ClJournal < Formula
   end
 
 
+  resource "trivial-features" do
+    url "http://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz"
+    sha256 "424681538abfa8c5af41fae0099c6e5cb9b05f823a094abba42fcac312f35f44"
+  end
+
+
   resource "trivial-gray-streams" do
     url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
     sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
@@ -195,56 +201,20 @@ class ClJournal < Formula
 
 
   resource "flexi-streams" do
-    url "http://beta.quicklisp.org/archive/flexi-streams/2015-07-09/flexi-streams-1.0.15.tgz"
-    sha256 "f70c76e1724978100e26d9e0e0a0844939cde084b0d7f5623f1adbc8cb187d7e"
-  end
-
-
-  resource "uiop" do
-    url "http://beta.quicklisp.org/archive/uiop/2017-01-24/uiop-3.2.0.tgz"
-    sha256 "2fb6cf86c0f2ce79981932ab7fb78388877bf9b7e3e67d4259b591c55a0d36e7"
-  end
-
-
-  resource "trivial-features" do
-    url "http://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz"
-    sha256 "424681538abfa8c5af41fae0099c6e5cb9b05f823a094abba42fcac312f35f44"
-  end
-
-
-  resource "trivial-features" do
-    url "http://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz"
-    sha256 "424681538abfa8c5af41fae0099c6e5cb9b05f823a094abba42fcac312f35f44"
-  end
-
-
-  resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
-  end
-
-
-  resource "babel" do
-    url "http://beta.quicklisp.org/archive/babel/2015-06-08/babel-20150608-git.tgz"
-    sha256 "6536bb4b426464151dfa476495bede44da5d67165e8d1179238ce731e6e1625b"
-  end
-
-
-  resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
+    url "http://beta.quicklisp.org/archive/flexi-streams/2017-12-27/flexi-streams-20171227-git.tgz"
+    sha256 "ccbbce21fe146ad7e59c9495bf5128e57329779e9abbf0fb7bfe9eef35e283c3"
   end
 
 
   resource "cffi" do
-    url "http://beta.quicklisp.org/archive/cffi/2016-10-31/cffi_0.18.0.tgz"
-    sha256 "ff5ff69b6de2a73ff7c8d4c81207f600ad4fee8791a41d61e2f1b04453a78c3c"
+    url "http://beta.quicklisp.org/archive/cffi/2017-06-30/cffi_0.19.0.tgz"
+    sha256 "49366f97ce20f1a9081b1abce89ab62608dc781dfeb40105a6c98d8b8182638b"
   end
 
 
   resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
   end
 
 
@@ -254,9 +224,15 @@ class ClJournal < Formula
   end
 
 
+  resource "alexandria" do
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
+  end
+
+
   resource "cl+ssl" do
-    url "http://beta.quicklisp.org/archive/cl+ssl/2016-12-08/cl+ssl-20161208-git.tgz"
-    sha256 "1a9efc7af99a435de6b2a76e5638f98c61f93707921d51cbed2f41d7b2503d75"
+    url "http://beta.quicklisp.org/archive/cl+ssl/2017-12-27/cl+ssl-20171227-git.tgz"
+    sha256 "449f91bddc7274166b8db7546f27bc2912126fdd2f6c802b213f7bc99867dcd4"
   end
 
 
@@ -267,8 +243,8 @@ class ClJournal < Formula
 
 
   resource "chunga" do
-    url "http://beta.quicklisp.org/archive/chunga/2014-12-17/chunga-1.1.6.tgz"
-    sha256 "efd3a4a1272cc8c04a0875967175abc65e99ff43a5ca0bad12f74f0953746dc7"
+    url "http://beta.quicklisp.org/archive/chunga/2017-11-30/chunga-20171130-git.tgz"
+    sha256 "438dbe827566bb631c719e34dd9feacf4230ce37c053730321504c51123c8a44"
   end
 
 
@@ -279,8 +255,8 @@ class ClJournal < Formula
 
 
   resource "drakma" do
-    url "http://beta.quicklisp.org/archive/drakma/2015-10-31/drakma-2.0.2.tgz"
-    sha256 "5f40ae3c8c8cabb834234a17c8f89dd8cc35cc104b89a8f86636b4ee5280fcae"
+    url "http://beta.quicklisp.org/archive/drakma/2017-08-30/drakma-v2.0.4.tgz"
+    sha256 "ea15c928676c94c484b9c8a093adde274a0d2d439c23871c60be10b102af0d44"
   end
 
 
@@ -309,14 +285,14 @@ class ClJournal < Formula
 
 
   resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
   end
 
 
   resource "babel" do
-    url "http://beta.quicklisp.org/archive/babel/2015-06-08/babel-20150608-git.tgz"
-    sha256 "6536bb4b426464151dfa476495bede44da5d67165e8d1179238ce731e6e1625b"
+    url "http://beta.quicklisp.org/archive/babel/2017-12-27/babel-20171227-git.tgz"
+    sha256 "2e0b1e1513d2cf61f23f38f4d2b5fec23efecf88cb72b68aff7d07559334de98"
   end
 
 
@@ -357,128 +333,14 @@ class ClJournal < Formula
 
 
   resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
   end
 
 
   resource "babel" do
-    url "http://beta.quicklisp.org/archive/babel/2015-06-08/babel-20150608-git.tgz"
-    sha256 "6536bb4b426464151dfa476495bede44da5d67165e8d1179238ce731e6e1625b"
-  end
-
-
-  resource "closure-common" do
-    url "http://beta.quicklisp.org/archive/closure-common/2010-11-07/closure-common-20101107-git.tgz"
-    sha256 "64c2b19fd64be8606f8208191b3269022e8fe34abe3f72acfd349f2fec6d02a5"
-  end
-
-
-  resource "cxml" do
-    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
-    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
-  end
-
-
-  resource "cxml" do
-    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
-    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
-  end
-
-
-  resource "trivial-gray-streams" do
-    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
-    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
-  end
-
-
-  resource "puri" do
-    url "http://beta.quicklisp.org/archive/puri/2015-09-23/puri-20150923-git.tgz"
-    sha256 "0a0784c4d592733c1232fdee1074e9898a091359da142985a44b9528bff02a25"
-  end
-
-
-  resource "trivial-gray-streams" do
-    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
-    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
-  end
-
-
-  resource "trivial-features" do
-    url "http://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz"
-    sha256 "424681538abfa8c5af41fae0099c6e5cb9b05f823a094abba42fcac312f35f44"
-  end
-
-
-  resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
-  end
-
-
-  resource "babel" do
-    url "http://beta.quicklisp.org/archive/babel/2015-06-08/babel-20150608-git.tgz"
-    sha256 "6536bb4b426464151dfa476495bede44da5d67165e8d1179238ce731e6e1625b"
-  end
-
-
-  resource "closure-common" do
-    url "http://beta.quicklisp.org/archive/closure-common/2010-11-07/closure-common-20101107-git.tgz"
-    sha256 "64c2b19fd64be8606f8208191b3269022e8fe34abe3f72acfd349f2fec6d02a5"
-  end
-
-
-  resource "cxml" do
-    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
-    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
-  end
-
-
-  resource "cxml" do
-    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
-    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
-  end
-
-
-  resource "cxml" do
-    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
-    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
-  end
-
-
-  resource "trivial-gray-streams" do
-    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
-    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
-  end
-
-
-  resource "puri" do
-    url "http://beta.quicklisp.org/archive/puri/2015-09-23/puri-20150923-git.tgz"
-    sha256 "0a0784c4d592733c1232fdee1074e9898a091359da142985a44b9528bff02a25"
-  end
-
-
-  resource "trivial-gray-streams" do
-    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
-    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
-  end
-
-
-  resource "trivial-features" do
-    url "http://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz"
-    sha256 "424681538abfa8c5af41fae0099c6e5cb9b05f823a094abba42fcac312f35f44"
-  end
-
-
-  resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
-  end
-
-
-  resource "babel" do
-    url "http://beta.quicklisp.org/archive/babel/2015-06-08/babel-20150608-git.tgz"
-    sha256 "6536bb4b426464151dfa476495bede44da5d67165e8d1179238ce731e6e1625b"
+    url "http://beta.quicklisp.org/archive/babel/2017-12-27/babel-20171227-git.tgz"
+    sha256 "2e0b1e1513d2cf61f23f38f4d2b5fec23efecf88cb72b68aff7d07559334de98"
   end
 
 
@@ -525,14 +387,128 @@ class ClJournal < Formula
 
 
   resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
   end
 
 
   resource "babel" do
-    url "http://beta.quicklisp.org/archive/babel/2015-06-08/babel-20150608-git.tgz"
-    sha256 "6536bb4b426464151dfa476495bede44da5d67165e8d1179238ce731e6e1625b"
+    url "http://beta.quicklisp.org/archive/babel/2017-12-27/babel-20171227-git.tgz"
+    sha256 "2e0b1e1513d2cf61f23f38f4d2b5fec23efecf88cb72b68aff7d07559334de98"
+  end
+
+
+  resource "closure-common" do
+    url "http://beta.quicklisp.org/archive/closure-common/2010-11-07/closure-common-20101107-git.tgz"
+    sha256 "64c2b19fd64be8606f8208191b3269022e8fe34abe3f72acfd349f2fec6d02a5"
+  end
+
+
+  resource "cxml" do
+    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
+    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
+  end
+
+
+  resource "cxml" do
+    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
+    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
+  end
+
+
+  resource "cxml" do
+    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
+    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
+  end
+
+
+  resource "trivial-gray-streams" do
+    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
+    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
+  end
+
+
+  resource "puri" do
+    url "http://beta.quicklisp.org/archive/puri/2015-09-23/puri-20150923-git.tgz"
+    sha256 "0a0784c4d592733c1232fdee1074e9898a091359da142985a44b9528bff02a25"
+  end
+
+
+  resource "trivial-gray-streams" do
+    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
+    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
+  end
+
+
+  resource "trivial-features" do
+    url "http://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz"
+    sha256 "424681538abfa8c5af41fae0099c6e5cb9b05f823a094abba42fcac312f35f44"
+  end
+
+
+  resource "alexandria" do
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
+  end
+
+
+  resource "babel" do
+    url "http://beta.quicklisp.org/archive/babel/2017-12-27/babel-20171227-git.tgz"
+    sha256 "2e0b1e1513d2cf61f23f38f4d2b5fec23efecf88cb72b68aff7d07559334de98"
+  end
+
+
+  resource "closure-common" do
+    url "http://beta.quicklisp.org/archive/closure-common/2010-11-07/closure-common-20101107-git.tgz"
+    sha256 "64c2b19fd64be8606f8208191b3269022e8fe34abe3f72acfd349f2fec6d02a5"
+  end
+
+
+  resource "cxml" do
+    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
+    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
+  end
+
+
+  resource "cxml" do
+    url "http://beta.quicklisp.org/archive/cxml/2011-06-19/cxml-20110619-git.tgz"
+    sha256 "d38bbad4b2d8f519f9e13402cd322ceb8a38934d4b4d82e2571a9f9bacd76612"
+  end
+
+
+  resource "trivial-gray-streams" do
+    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
+    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
+  end
+
+
+  resource "puri" do
+    url "http://beta.quicklisp.org/archive/puri/2015-09-23/puri-20150923-git.tgz"
+    sha256 "0a0784c4d592733c1232fdee1074e9898a091359da142985a44b9528bff02a25"
+  end
+
+
+  resource "trivial-gray-streams" do
+    url "http://beta.quicklisp.org/archive/trivial-gray-streams/2014-08-26/trivial-gray-streams-20140826-git.tgz"
+    sha256 "22757737e6b63a21f5e7f44980df8047f8c8294c290eeaaaf01bef1f31b80bda"
+  end
+
+
+  resource "trivial-features" do
+    url "http://beta.quicklisp.org/archive/trivial-features/2016-12-04/trivial-features-20161204-git.tgz"
+    sha256 "424681538abfa8c5af41fae0099c6e5cb9b05f823a094abba42fcac312f35f44"
+  end
+
+
+  resource "alexandria" do
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
+  end
+
+
+  resource "babel" do
+    url "http://beta.quicklisp.org/archive/babel/2017-12-27/babel-20171227-git.tgz"
+    sha256 "2e0b1e1513d2cf61f23f38f4d2b5fec23efecf88cb72b68aff7d07559334de98"
   end
 
 
@@ -561,8 +537,8 @@ class ClJournal < Formula
 
 
   resource "cl-ppcre" do
-    url "http://beta.quicklisp.org/archive/cl-ppcre/2015-09-23/cl-ppcre-2.0.11.tgz"
-    sha256 "626d4e1f78659d0b6e4d675c94e39afb1f602427724c961b1e4f029b348f4cb6"
+    url "http://beta.quicklisp.org/archive/cl-ppcre/2017-12-27/cl-ppcre-20171227-git.tgz"
+    sha256 "84d77df5e6913535deea5d0b7d13e0108da5eaa90034039da2976ad96762b16d"
   end
 
 
@@ -573,14 +549,14 @@ class ClJournal < Formula
 
 
   resource "alexandria" do
-    url "http://beta.quicklisp.org/archive/alexandria/2017-02-27/alexandria-20170227-git.tgz"
-    sha256 "9073573407646b6e6ffa3454c5a2fa6c741e87e8064e92a2e3c8e1edb527d63e"
+    url "http://beta.quicklisp.org/archive/alexandria/2017-08-30/alexandria-20170830-git.tgz"
+    sha256 "894e54f77594b13137b5b8ec05937ad6b78bc15c4630ffd1e550e1f226a2f96e"
   end
 
 
   resource "babel" do
-    url "http://beta.quicklisp.org/archive/babel/2015-06-08/babel-20150608-git.tgz"
-    sha256 "6536bb4b426464151dfa476495bede44da5d67165e8d1179238ce731e6e1625b"
+    url "http://beta.quicklisp.org/archive/babel/2017-12-27/babel-20171227-git.tgz"
+    sha256 "2e0b1e1513d2cf61f23f38f4d2b5fec23efecf88cb72b68aff7d07559334de98"
   end
 
 
@@ -598,7 +574,7 @@ class ClJournal < Formula
 
     ENV["CL_SOURCE_REGISTRY"] = "#{buildpath}/lib//:#{buildpath}//"
     ENV["ASDF_OUTPUT_TRANSLATIONS"] = "/:/"
-    system "buildapp", "--load-system", "cl-journal", "--output", "cl-journal", "--entry", "cl-journal.main::main"
+    system "buildapp", "--load-system", "cl-journal", "--output", "cl-journal", "--entry", "cl-journal.main"
 
     bin.install "cl-journal"
   end
